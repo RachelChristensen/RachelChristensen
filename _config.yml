@@ -1,0 +1,33 @@
+title: "Rachel Christensen"
+description: "Personal Blog & Portfolio"
+baseurl: ""
+url: "https://rachelchristensen.github.io"
+theme: minima
+palette:
+  primary: "#5C7F67" # Light Elegant Green
+  secondary: "#A79277" # Soft Brown
+  background: "#F9F9F4" # Off-white
+  accent: "#B4C6A6" # Pale Green
+  text: "#2D2D2A" # Deep Brown
+
+minima:
+  skin: classic
+  social_links:
+    github: RachelChristensen
+
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: "portfolio"
+      type: "portfolio"
+    values:
+      layout: "portfolio"

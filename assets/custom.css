@@ -1,0 +1,23 @@
+body {
+  background-color: #F9F9F4;
+  color: #2D2D2A;
+  font-family: 'Georgia', serif;
+}
+a {
+  color: #5C7F67;
+}
+a:hover {
+  color: #A79277;
+  text-decoration: underline;
+}
+.site-header, .site-footer {
+  background: #B4C6A6;
+  color: #2D2D2A;
+}
+h1, h2, h3, h4 {
+  color: #5C7F67;
+  font-family: 'Georgia', serif;
+}
+.site-title {
+  color: #A79277 !important;
+}
