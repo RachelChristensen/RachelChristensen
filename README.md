@@ -64,6 +64,9 @@ Closing Elements
 
 Stage, Commit, Push all changed files
 
-git add .
-git commit -m "Describe your changes"
-git push origin main
+save filed under 'open editors'
+In terminal....
+    git status - whats not saved?
+    git add . - stage all files to be commited
+    git commit -m "Describe your changes" - commit files
+    git push origin main - push to website
