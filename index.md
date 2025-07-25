@@ -1,3 +1,6 @@
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+
 ---
 layout: home
 title: "Welcome"
@@ -18,3 +21,5 @@ Hello! I’m Rachel Christensen. Here you’ll find my latest blog posts and a s
 {% for post in site.posts limit:3 %}
 - [{{ post.title }}]({{ post.url }}) <span style="color: #A79277;">({{ post.date | date: "%b %-d, %Y" }})</span>
 {% endfor %}
+
+
