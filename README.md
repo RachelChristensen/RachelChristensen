@@ -1,16 +1,61 @@
-## Hi there 👋
+Syntax - Markdowns (ReadME Files, Blog posts)
 
-<!--
-**RachelChristensen/RachelChristensen** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Headers
+# H1 (Big title)
+## H2 (Section title)
+### H3 (Subsection)
 
-Here are some ideas to get you started:
+Bold/Italics
+**bold text**
+__bold also__
+*italic text*
+_italic also_
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Links
+[Google](https://google.com)
+
+Images
+![Alt text](image-url.png)
+
+Comments
+<!-- This is a hidden comment -->
+
+
+
+------------------------------------------------------
+
+Syntax - HTML (Website Code)
+
+**Opening Elements**
+<div> , <p>, etc
+Closing Elements
+</div>, </p>
+
+
+**Code Pretty-ing**
+<p>Paragraph text</p>
+<strong>Bold</strong>
+<em>Italic</em>
+<br> (Line break)
+<hr> (Horizontal line)
+<u>This text is underlined</u>
+<!-- This is a comment -->
+
+
+
+
+**Code Formatting**
+<div> = Opening division (used to group sections)
+<p> = Paragraph (adds space before and after text)
+<header>    = Top of the page with a big welcome message
+<nav>       = Navigation links (simulating a menu bar)
+<section>   = Page sections like About, Projects
+<div>       = Used inside each section to group content
+<span>      = Inline highlight (ie coloring one word red)
+<footer>    = Bottom of the page with copyright
+
+**Links**
+<a href="https://example.com">Visit Site</a>
+
+**Images**
+<img src="image.png" alt="Description">
