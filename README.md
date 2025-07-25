@@ -59,3 +59,11 @@ Closing Elements
 
 **Images**
 <img src="image.png" alt="Description">
+
+------------------------------------------------------
+
+Stage, Commit, Push all changed files
+
+git add .
+git commit -m "Describe your changes"
+git push origin main
